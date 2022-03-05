@@ -1,0 +1,95 @@
+.container {
+	display: grid;
+	margin: 1.5rem 0;
+	row-gap: 1.25rem;
+}
+
+.title {
+	padding: 0 1.25rem;
+	color: #1A3D8F;
+}
+
+.info {
+	display: grid;
+	padding: 0 2.25rem;
+	font-weight: 500;
+	row-gap: .5rem;
+	font-size: 0.75rem;
+}
+
+.form {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	background: #f1f1f1;
+	margin: .75rem;
+	padding: .5rem 0;
+}
+
+.form input {
+	width: 80%;
+	padding: .75rem;
+	align-self: center;
+	border-radius: .5rem;
+	border: 1px solid black;
+	font-size: .75rem;
+}
+
+.form label {
+	padding: .75rem 10% .25rem;
+	font-weight: 555;
+}
+.form textarea {
+	width: 80%;
+	height: 40vh;
+	align-self: center;
+	border-radius: .5rem;
+	padding: .75rem;
+}
+
+.button {
+	padding: .5rem;
+	width: 40%;
+	margin: 1.25rem 10%;
+	align-self: flex-start;
+	font-size: .75rem;
+	background: black;
+	color: white;
+	border: 1px solid black;
+	border-radius: .25rem;
+	letter-spacing: .125rem;
+	cursor: pointer;
+}
+
+.button:hover {
+	color: black;
+	background: white;
+}
+
+@media screen and (min-width: 768px) {
+	.button {
+		width: 25%;
+		font-size: 1rem;
+		padding: .5rem;
+		font-weight: 300;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.container {
+		margin: 5% 15%;
+	}
+	.info {
+		font-size: 1.25rem;
+		row-gap: .75rem;
+		width: 70%;
+		padding: 0;
+		margin: 1rem auto;
+	}
+
+	.form {
+		display: flex;
+		width: 70%;
+		margin: auto;
+	}
+}
