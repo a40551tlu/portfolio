@@ -6,7 +6,7 @@ function About() {
 	<div className={`${aboutStyles['container']}`} id='about'>
 		<Layout animation='animate__zoomInLeft'>
 			<p className={`${aboutStyles.header}`}>
-				Hello, I'm Ha
+				Hello, I'm Hatr
 				<span style={{color: '#49A8AD'}}>
 					<strong> (⌐▀͡ ̯ʖ▀) </strong>
 				</span>

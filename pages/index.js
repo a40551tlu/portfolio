@@ -3,7 +3,7 @@ import Link from 'next/link';
 import dynamic from 'next/dynamic';
 import Header from '../components/Header';
 const DynamicAbout = dynamic(() => import('../components/About'), {
-  loading: <p>Load...</p>
+  loading: <p>Load....</p>
 })
 import Project from '../components/Project.tsx';
 import Skills from '../components/Skills';
